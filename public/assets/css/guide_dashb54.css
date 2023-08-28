@@ -1,0 +1,41 @@
+.tourStep {
+    box-sizing: content-box;
+    max-width: 230px;
+    padding: 9px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    block-size: auto;
+    position: fixed;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+     
+     }
+     .tourClose {
+    cursor: pointer;
+    float: right;
+       
+     }
+     .panel-body { 
+       margin-bottom: 10px;
+       padding-top: 35px;
+     }
+
+     @media (max-width: 768px) {
+  .tourStep {
+    overflow: auto;
+    position: fixed;
+    block-size: auto;
+    box-sizing: content-box;
+    max-width: 180px;
+    font-size: 12px;
+    padding: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Additional adjustments */
+  }
+}

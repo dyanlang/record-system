@@ -1,0 +1,21 @@
+.tourStep {
+    position: absolute;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     padding: 9px;
+     background-color: #fff;
+     font-size: 16px;
+     color: #333;
+     /* margin-left: 20px; */
+     
+     }
+     .tourClose {
+      cursor: pointer;
+       float: right;
+       
+     }
+     .panel-body {
+       margin-bottom: 10px;
+       padding-top: 35px;
+       width: auto;
+     }
